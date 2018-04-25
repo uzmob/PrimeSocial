@@ -1,0 +1,119 @@
+body
+{ 
+	color: black; font-family:Arial, Tahoma;
+	background:#F2F2F2;
+	margin:auto;font-size: 14px;
+	line-height: 1.7;
+    max-width: 750px;
+}
+a:link { text-decoration: none; color :#565656}
+a:active { text-decoration: none; color : #565656}
+a:hover {  text-decoration: none;}
+a:visited { text-decoration: none; color :#565656}
+   
+.head {
+vertical-align: top;
+padding: 5px;
+color: #565656;
+}
+.title {
+vertical-align: top;
+padding: 10px;
+color: #fff;
+background: #68AEE6; 
+text-shadow: 1px 1px 2px #5497CD;
+}    
+.block {
+    background: #4587BE; 
+    padding: 8px;
+    position: relative;
+    color: #fff;
+   }
+   .block::after {
+    content: ''; 
+    position: absolute; 
+    right: 20px; bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #4587BE; 
+   }
+.block a
+{
+color: #fff;
+}
+.lines {
+vertical-align: top;
+padding: 10px;
+color: #044D7B;
+background: #F6FCFF;  
+text-shadow: 1px 1px 2px #fff;            
+border-top: 1px solid #FCFEFF;
+border-bottom: 1px solid #E6F4FB;
+} 
+.lines a{
+color: #00A200;
+} 
+.green {
+vertical-align: top;
+padding: 6px;
+color: #539453;
+background: #E9FFE9;  
+text-shadow: 1px 1px 2px #fff;            
+border-top: 1px solid #F4FFF4;
+border-bottom: 1px solid #D2FFD2;
+} 
+.green a{
+color: #044D7B;
+} 
+
+.foot {
+vertical-align: middle;
+padding: 8px;
+color: #547A57;
+background: #BAE0BD;
+position: relative;
+border-bottom: 3px solid #8FBF93;
+text-shadow: 0 1px 1px #CDEBCF;
+border-radius: 0 0 4px 4px;
+}
+.foot::after {
+content: ''; 
+position: absolute; 
+right: 20px; top: -20px;
+border: 10px solid transparent;
+border-bottom: 10px solid #BAE0BD; 
+}
+.foot a{
+        color: #547A57;
+}
+.err {
+vertical-align: top;
+padding: 6px;
+color: #9F6E6E;
+background: #F5D4D4;  
+text-shadow: 1px 1px 2px #fff;            
+border-top: 1px solid #FADFDF;
+border-bottom: 1px solid #E7C5C5;
+} 
+.err a{
+color: #9F6E6E;
+}
+.on {
+vertical-align: top;
+padding: 8px;
+color: #AF8600;
+background: #FF0;  
+text-shadow: 1px 1px 2px #fff;
+} 
+.on a{
+color: #AF8600;
+}
+.off {
+vertical-align: top;
+padding: 8px;
+color: #fff;
+background: #B2B2B2;  
+text-shadow: 1px 1px 2px #5A5A5A;
+} 
+.off a{
+color: #fff;
+}
