@@ -10,4 +10,4 @@ Mobile CMS for dating
 ## Official Page
 [Official Page - Live example](http://primesocial.ru)
 
-Creator: [Archi] (https://uzfor.uz/profile.php?user=656)
+## Creator: [Archi](https://uzfor.uz/profile.php?user=656)
