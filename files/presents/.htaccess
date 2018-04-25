@@ -1,0 +1,2 @@
+RemoveHandler .php .phtml .pl
+AddType text/plain .php .phtm .htm .html .phtml .pl .php.gif
